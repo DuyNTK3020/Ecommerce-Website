@@ -73,7 +73,7 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: #1a1a1a;
-    transition: 0.3 ease;
+    transition:  0.3s ease;
 }
 
 #navbar li a:hover,
@@ -81,13 +81,19 @@ body {
     color: #088178;
 }
 
-#navbar li a:hover::after,
+#navbar li a::after,
 #navbar li a.active::after {
     content: "";
-    width: 30%;
+    width: 0%;
     height: 2px;
     background-color: #088178;
     position: absolute;
     bottom: -4px;
     left: 20px;
+    transition: width 0.3s ease;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after {
+    width: 30%;
 }
