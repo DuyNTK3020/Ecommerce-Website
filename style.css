@@ -472,3 +472,68 @@ body {
     color: #fff;
     white-space: nowrap;
 }
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo {
+    margin-bottom: 30px;
+}
+
+footer h4 {
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #222;
+    font-size: 13px;
+    margin-bottom: 10px;
+    transition: 0.3s ease;
+}
+
+footer .follow  {
+    margin-top: 20px;
+}
+
+footer .follow i {
+    color: #465b52;
+    margin-right: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer .install .row img {
+    border: 1px solid #088178;
+    border-radius: 4px;
+}
+
+footer .install img {
+    margin: 10px 0 15px 0;
+}
+
+footer a:hover,
+footer .follow i:hover {
+    color: #088178;
+}
+
+footer .copyright {
+    width: 100%;
+    text-align: center;
+}
